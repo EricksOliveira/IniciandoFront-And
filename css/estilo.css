@@ -1,15 +1,30 @@
-.informacoes, .rotina, .hobbies, .inspiracao, .viagens{
+* {
+    margin: 0%;
+}
+
+h1 {
     background-color: black;
-    float: left;
-    padding: 1px 1px;
-    margin: 1%;
-}
-h1, h2, p, span {
     color: white;
+    max-width: 90%;
+    text-align: center;
+    margin: 5vh auto;
 }
-button {
-    position: relative;
-    width: 100%;
-    height: auto;
-    border: 1px solid #73AD21;
+
+h2, p, span {
+    background-color: black;
+    color: white;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rotina, .hobbies, .inspiracao, .viagens {
+    margin: 10vh 10vh;
+    float: left;
+}
+
+.botao {
+    margin: 10vh 10vh;
+    float: left;
+    float: left;
 }
